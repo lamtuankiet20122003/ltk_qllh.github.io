@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-section img {
+    border-radius: 50%;
+    width: 150px; /* Điều chỉnh kích thước của hình ảnh tùy ý */
+    height: 150px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-section h2 {
+    margin-top: 0;
+  }
+  
+  .links {
+    margin-top: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left-section img {
+    margin-bottom: 10px; /* Khoảng cách 10px dưới hình ảnh */
+  }
+  
+  .links {
+    display: flex;
+    gap: 10px; /* Khoảng cách 10px giữa các liên kết */
+    margin-top: 10px; /* Khoảng cách 10px trên cùng của các liên kết */
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .links a:hover {
+    color: red;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-section img {
+    border-radius: 50%;
+    width: 150px; /* Điều chỉnh kích thước của hình ảnh tùy ý */
+    height: 150px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Cho phép cuộn dọc chỉ ở phần bên phải */
+    max-height: calc(100vh - 40px); /* Giảm chiều cao tối đa để tránh cuộn cả trang */
+  }
+  
+  .right-section h2 {
+    margin-top: 0;
+  }
+  
+  .links {
+    margin-top: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
